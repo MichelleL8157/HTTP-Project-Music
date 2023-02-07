@@ -142,3 +142,17 @@ app.delete("/api/home/songs",(req,res) => {
 app.listen(3000, () => {
     console.log('Listening on port 3000...')
 });
+/* Short Reflection
+1. Programs work together to execute different functions and allow the user a variety of things to do 
+and this project goes to show how one program can help users modify their music apps by adding, deleting, 
+changing, and receiving information about these songs and genres. As a whole, these functions allow this 
+program to provide use for users with many tools and options.
+2. I learned how resourceful the internet is and how communicating with my classmates is very important 
+because I had to ask for help from a classmate outside my table during another class since I was confused 
+about how to work on Postman and Node with VSCode. For all my other projects this year, I've worked 
+individually so reaching out for help during this project helped me open up. Technically, I've learned how 
+to use Postman and signals with this project.
+3. This project can further be extended by adding more options and customizability such as using other 
+signals besides GET and DELETE such as COPY and HEAD. There are many more to use and choose from so it's 
+possible to add more extensions and functions to the program to make the program more customizable.
+*/
